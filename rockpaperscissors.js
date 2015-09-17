@@ -111,7 +111,7 @@ function playToFive() {
         //console.log("Player wins: " + playerWins)
         //console.log("Computer wins: " + computerWins)
     }
-    return (playerWins == 5) ? "Congratulations player!" : "Exterminate humans" ;
+    return (playerWins === 5) ? "Congratulations player!" : "Exterminate humans" ;
 
 }
 playToFive();
